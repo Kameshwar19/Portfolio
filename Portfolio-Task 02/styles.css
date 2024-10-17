@@ -1,0 +1,180 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General body styles */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header section */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 4px;
+}
+.social-links {
+    margin: 20px 0;
+    text-align: center;
+    
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #efeded;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* About section */
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+/* Skills section */
+.skills {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    transform: translate(90%,0%);
+    letter-spacing: 8px;
+    
+    
+    
+}
+
+.skill {
+    margin-bottom: 10px;
+    
+    
+
+}
+
+.skill p {
+    font-size: 1em;
+    margin-bottom: 5px;
+    padding-top: 40px;
+    
+}
+
+.bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bar div {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 20px;
+    
+}
+
+.python { width: 75%; background-color: #e6461e; }
+.html { width: 60%; background-color: #1f46e4; }
+.css { width: 40%; background-color: #f0db4f; color: #333; }
+.Javascript{ width: 30%; background-color: #306998; }
+
+/* Projects section */
+#projects {
+    padding: 40px;
+    background-color: #f4f4f4;
+    
+}
+
+.project {
+    margin: 20px 0;
+    padding-top: 40px;
+}
+
+.project img {
+    width: 900%;
+    max-width: 800px;
+    
+}
+
+/* Resume section */
+#resume {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#resume a {
+    color: #ff6347;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Contact section */
+.contact {
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #014084;
+    transition: width 0.3s;
+    left: 0;
+    bottom: -2px;
+}
+
+a:hover {
+    color: #057bf9;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
