@@ -4,8 +4,8 @@ This README file provides a brief overview of a simple portfolio project created
 online presence where the user can showcase their skills and projects.
 
 Project Overview
-The portfolio is a straightforward website aimed at providing an easy-to-navigate layout with a simple and clean design. It features basic sections to highlight 
-the user's skills and experience, making it accessible and functional for visitors.
+               The portfolio is a straightforward website aimed at providing an easy-to-navigate layout with a simple and clean design. It features basic sections to highlight 
+               the user's skills and experience, making it accessible and functional for visitors.
 
 Features
       Responsive Layout: 
