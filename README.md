@@ -11,10 +11,10 @@ Features
       Responsive Layout: 
                    The portfolio is built to adjust for different screen sizes, ensuring usability on desktops, tablets, and mobile devices.
 
-      Basic Styling: 
+     Basic Styling: 
                    The design uses CSS for simple styling, focusing on clarity and ease of navigation.
       
-      Contact Information: 
+     Contact Information: 
                    Includes basic contact details for easy communication.
 
 Technologies Used
