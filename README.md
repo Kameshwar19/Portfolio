@@ -28,3 +28,5 @@ How to Use
         Modify the HTML and CSS files to update information or customize the design to your preference.
 
 This project serves as a simple template for building and customizing a personal portfolio using basic web development skills.
+
+# codsoft
